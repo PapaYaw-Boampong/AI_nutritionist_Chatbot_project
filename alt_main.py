@@ -7,7 +7,7 @@ from openai import OpenAI
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(
-    api_key="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"
+    api_key=api_key = st.secrets["openai"]["api_key"]
 )
 
 
