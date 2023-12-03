@@ -162,9 +162,6 @@ def main():
         # Process user input
         response, all_messages = process_user_message(user_input, all_messages)
 
-        # Display chat history
-        st.text_area("Chat History", value="\n".join([f"{msg['role']}: {msg['content']}" for msg in all_messages]))
-
         # Display chatbot response
         st.text_area("AI Nutritionist:", value=response, height=len(response.split("\n")) * 20)  # Adjust height dynamically
 
