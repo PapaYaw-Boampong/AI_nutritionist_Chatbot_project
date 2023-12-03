@@ -12,7 +12,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(
     # This is the default and can be omitted
     # api_key=os.environ.get("OPENAI_API_KEY"),
-    api_key = "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"
+    api_key = st.secrets["openai"]["api_key"]
 )
 
 
