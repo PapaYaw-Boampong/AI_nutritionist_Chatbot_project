@@ -107,7 +107,7 @@ def process_user_message(user_input, all_messages, user_info, debug=True):
         {'role': 'assistant', 'content': f"Relevant product information:\n{product_information}"}
     ]
 
-    final_response = get_completion_from_messages(all_messages[-3:] + messages)
+    final_response = get_completion_from_messages(all_messages[-4:] + messages)
 
     # Update AI memory
     all_messages.append(messages[1])  # Only keep the user message in the history
