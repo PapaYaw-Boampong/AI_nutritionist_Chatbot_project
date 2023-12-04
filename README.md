@@ -6,27 +6,27 @@ This is a simple Streamlit-based chatbot designed to act as an AI-powered nutrit
 
 To run the chatbot, you'll need to have Python and the required dependencies installed. You can install the dependencies using the following command:
 
-bash
-pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt or make sure you download the content of the requirement file
+```
 
 ## Configuration
 
-Make sure to set up your OpenAI API key as an environment variable or directly in the code (not recommended for production). Update the api_key variable in the code with your OpenAI API key.
+Make sure to set up your OpenAI API key as an environment variable or directly in the code (not recommended for production). Update the `api_key` variable in the code with your OpenAI API key. If you fail to do this, the chatbot will refuse to work.
 
-python
+```python
 api_key = "your_openai_api_key"
-
+```
 
 ## Running the Chatbot
 
 To launch the chatbot, run the following command:
 
-bash
+```bash
 streamlit run your_script_name.py
+```
 
-
-Replace your_script_name.py with the name of your Python script containing the chatbot code.
+Replace `your_script_name.py` with the name of your Python script containing the chatbot code.
 
 ## Usage
 
@@ -39,12 +39,10 @@ Replace your_script_name.py with the name of your Python script containing the c
 
 You can customize the chatbot behavior by modifying the code, adjusting the system messages, or extending the functionality to meet specific requirements.
 
+## Showcase Video
+
+Watch a showcase video demonstrating how the chatbot works on [YouTube](https://www.youtube.com/watch?v=SETkjZUFs2Y).
+
 ## Contributing
 
 Feel free to contribute to the development of this chatbot by submitting pull requests, reporting issues, or suggesting improvements.
-
-
-
----
-
-Feel free to tailor this README to better fit your project structure and additional details you want to include.
